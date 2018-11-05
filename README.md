@@ -12,7 +12,7 @@ You will be able to:
 * Understand and explain the Exponential Distribution and its use cases.  
 
 
-### What is the Exponential Distribution?
+## What is the Exponential Distribution?
 
 The **_Exponential Distribution_** describes the probability distribution of the amount of time it may take before an event occurs.  In a way, it solves the inverse of the problem solves by the Poisson Distribution.
 
@@ -22,7 +22,7 @@ The **_Exponential Distribution_** lets us ask how likely the _length of an inte
 
 Another way to think of the Exponential Distribution is as the continuous analogue of the **_Geometric Distribution_**.  Inuitively, this makes sense--both are concerned with measuring the amount of something that happens before a target event occurs.  With the Geometric Distribution, we were measuring the number of discrete events that happen before something happened (e.g. the number of coin flips).  The Exponential Distribution does not measure the probability of number of trials before an event happens--instead, it measures the probability of the length of **_time_** that will pass before an event occurs.  
 
-### Sample Problem Statements for Exponential Distribution
+## Sample Problem Statements for Exponential Distribution
 
 Let's look at some examples of the type of question we can answer with knowledge of the Exponential Distribution:
 
@@ -36,13 +36,13 @@ Let's look at some examples of the type of question we can answer with knowledge
 
 As you can see, any type of question that we can ask about the length of time before a random event happens is a question that falls under the _Exponential Distribution_.  
 
-### Parameters & Formulas
+## Parameters & Formulas
 
 As with the other distributions we've learned about, our goal is to discover the probability that our **_Random Variable, $X$_** will turn out to be a specific value, $x$. 
 
 In order to figure this out, we need to know the **_Decay Parameter_**, $\lambda$ (although you may also see this denoted by the letter $m$).  To calculate the decay parameter, we just divide 1 by the average length of time it takes for an event to occur (e.g. the average number of minutes a customer interaction takes, or the average number of days before a machine breaks down). The average interval length is usually labeled as $\mu$.
 
-#### Decay Rate Formula
+### Decay Rate Formula
 
 $$\lambda = \frac{1}{\mu}$$
 
@@ -66,7 +66,7 @@ Note that we discussed the mean of this distribution above, but not the standard
 $$\sigma = \mu$$
 
 
-### Solving a Sample Problem
+## Solving a Sample Problem
 
 Let's use some python to solve a sample problem described above.  Let's assume that the average customer interaction at a grocery store takes 4 minutes.  What is the probability that ringing up the next customer takes exactly 3 minutes? What about the probability that it takes 3 minutes or less?
 
@@ -91,8 +91,8 @@ print("Cumulative probability of 3 minutes or less: {:.4f}%".format(exp_cdf(4, 3
 
     Point robability for exactly 3 minutes: 11.8092%
     Cumulative probability of 3 minutes or less: 52.7633%
-    
 
-# Conclusion
+
+## Summary
 
 In this lesson, we learned about the **_Exponential Distribution_**, and we can use the **_Decay Rate_** to calculate both **_Probability Density_** and **_Cumulative Density_**!
