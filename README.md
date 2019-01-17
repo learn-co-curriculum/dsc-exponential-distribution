@@ -1,5 +1,5 @@
 
-# Exponential Distribution
+# Exponential Distributions
 
 ## Introduction
 
