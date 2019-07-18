@@ -50,13 +50,13 @@ $$PDF(x) = \lambda e^{-\lambda x}$$
 
 The **Probability Density Function** allows us to answer questions such as "What is the probability that it takes _exactly_ 4 minutes to ring up this customer?"
 
-<img src='images/pdf.png'>
+<img src='images/new_pdf.png' width="400">
 
 Since we are talking about a Continuously-valued function, we'll also often want to make use of the **Cumulative Density Function**.  This allows us to answer questions such as "what is the probability that it will take less than 4 minutes to ring up this customer?"
 
 $$CDF(x) = 1 - e^{-\lambda x}$$
 
-<img src='images/cdf.png'>
+<img src='images/new_cdf.png' width="400">
 
 
 Note that we discussed the mean of this distribution above, but not the standard deviation. This distribution is somewhat unique in that the **Standard Deviation**, $\sigma$ is equal to the **_mean_**, $\mu$.
