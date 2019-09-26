@@ -80,7 +80,7 @@ def exp_pdf(mu, x):
     
 
 def exp_cdf(mu, x):
-    decay_rate = 1 / 4
+    decay_rate = 1 / mu
     return 1 - np.exp(-decay_rate * x)
     
 print("Point probability for exactly 3 minutes: {:.4f}%".format(exp_pdf(4, 3) * 100))
