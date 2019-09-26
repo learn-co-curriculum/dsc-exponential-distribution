@@ -20,7 +20,7 @@ The **Poisson Distribution** lets you ask how likely any given number of events 
 
 The **Exponential Distribution** lets you ask how likely the _length of an interval of time_ is before an event occurs exactly once. 
 
-## Sample Problem Statements for Exponential Distribution
+## Sample Problem Statements for the Exponential Distribution
 
 Let's look at some examples of the type of questions you can answer with knowledge of the Exponential Distribution:
 
@@ -52,14 +52,14 @@ The **Probability Density Function** allows us to answer questions such as "What
 
 <img src='images/new_pdf.png' width="400">
 
-Since we are talking about a Continuously-valued function, we'll also often want to make use of the **Cumulative Density Function**.  This allows us to answer questions such as "what is the probability that it will take less than 4 minutes to ring up this customer?"
+Since we are talking about a continuously-valued function, we'll also often want to make use of the **Cumulative Density Function**.  This allows us to answer questions such as "what is the probability that it will take less than 4 minutes to ring up this customer?"
 
 $$CDF(x) = 1 - e^{-\lambda x}$$
 
 <img src='images/new_cdf.png' width="400">
 
 
-Note that we discussed the mean of this distribution above, but not the standard deviation. This distribution is somewhat unique in that the **Standard Deviation**, $\sigma$ is equal to the **_mean_**, $\mu$.
+Note that we discussed the mean of this distribution above, but not the standard deviation. This distribution is somewhat unique in that the **standard deviation**, $\sigma$ is equal to the **mean**, $\mu$.
 
 $$\sigma = \mu$$
 
@@ -87,10 +87,10 @@ print("Point probability for exactly 3 minutes: {:.4f}%".format(exp_pdf(4, 3) * 
 print("Cumulative probability of 3 minutes or less: {:.4f}%".format(exp_cdf(4, 3) * 100))
 ```
 
-    Point robability for exactly 3 minutes: 11.8092%
+    Point probability for exactly 3 minutes: 11.8092%
     Cumulative probability of 3 minutes or less: 52.7633%
 
 
 ## Summary
 
-In this lesson, we learned about the **Exponential Distribution**, and we can use the **Decay Rate** to calculate both **Probability Density** and **Cumulative Density**!
+In this lesson, we learned about the **Exponential Distribution**, and how we can use the **Decay Rate** to calculate both the **Probability Density** and the **Cumulative Density**!
