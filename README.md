@@ -9,14 +9,15 @@ In this lesson, you'll learn about the Exponential Distribution and the types of
 
 You will be able to:
 
-* Understand and explain the Exponential Distribution and its use cases.  
+* Define the parameters of the exponential distribution
+* Identify use cases for the exponential distribution
 
 
 ## What is the Exponential Distribution?
 
 The **Exponential Distribution** describes the probability distribution of the amount of time it takes before an event occurs.  In a way, it solves the inverse of the problem solved by the Poisson Distribution.
 
-The **Poisson Distribution** lets you ask how likely any given number of events are over a set interval of time.  
+Recall that the **Poisson Distribution** lets you ask how likely any given number of events are over a set interval of time.  
 
 The **Exponential Distribution** lets you ask how likely the _length of an interval of time_ is before an event occurs exactly once. 
 
@@ -66,7 +67,7 @@ $$\sigma = \mu$$
 
 ## Solving a Sample Problem
 
-Let's use some python to solve a sample problem described above.  Let's assume that the average customer interaction at a grocery store takes 4 minutes.  What is the probability that ringing up the next customer takes exactly 3 minutes? What about the probability that it takes 3 minutes or less?
+Let's use Python to solve a sample problem described above.  Let's assume that the average customer interaction at a grocery store takes 4 minutes.  What is the probability that ringing up the next customer takes exactly 3 minutes? What about the probability that it takes 3 minutes or less?
 
 Let's write a few quick functions to calculate the PDF and CDF for us in the cell below. Then, we can use it to solve the problem above. 
 
