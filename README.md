@@ -53,7 +53,7 @@ The **Probability Density Function** allows us to answer questions such as "What
 
 <img src='images/new_pdf.png' width="400">
 
-Since we are talking about a continuously-valued function, we'll also often want to make use of the **Cumulative Density Function**.  This allows us to answer questions such as "what is the probability that it will take less than 4 minutes to ring up this customer?"
+Since we are talking about a continuously-valued function, we'll also often want to make use of the **Cumulative Distribution Function**.  This allows us to answer questions such as "what is the probability that it will take less than 4 minutes to ring up this customer?"
 
 $$CDF(x) = 1 - e^{-\lambda x}$$
 
@@ -94,4 +94,4 @@ print("Cumulative probability of 3 minutes or less: {:.4f}%".format(exp_cdf(4, 3
 
 ## Summary
 
-In this lesson, we learned about the **Exponential Distribution**, and how we can use the **Decay Rate** to calculate both the **Probability Density** and the **Cumulative Density**!
+In this lesson, we learned about the **Exponential Distribution**, and how we can use the **Decay Rate** to calculate both the **Probability Density Function** and the **Cumulative Distribution Function**!
